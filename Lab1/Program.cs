@@ -10,7 +10,7 @@ class Program
         const int favNum = 8;
         const string favProgram = "Java";
         const double numOfPrograms = 2;
-        const bool myBool = true;
+        const bool myBool = true = yes;
         Console.WriteLine("My favorite number is " + favNum + ".");
         Console.WriteLine("My favorite program is " + favProgram + " because it reminds me of tea.");
         Console.WriteLine("I've written " + numOfPrograms + " programs before this.");
