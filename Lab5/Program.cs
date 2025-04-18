@@ -7,7 +7,7 @@ class Program
         string[] seasons = { "Spring", "Summer", "Fall", "Winter" };
         foreach (string season in seasons)
         {
-        Console.WriteLine(season);
+        Console.WriteLine("Season: " + season);
         }
         Console.WriteLine();
         //Problem 2: Days of the Week (1-7)
@@ -40,13 +40,13 @@ class Program
         Console.Write(temp + " ");
         }
         Console.WriteLine();
-        Console.WriteLine("Lowest Temperature: " + temperatures[0]);
         Console.WriteLine("Highest Temperature: " + temperatures[temperatures.Length - 1]);
+        Console.WriteLine("Lowest Temperature: " + temperatures[0]);
         Console.WriteLine();
         //Problem 5: Reverse Countdown
         int[] countdown = { 5, 4, 3, 2, 1 };
         Array.Reverse(countdown);
-        Console.Write("Reversed Countdown: ");
+        Console.Write("Countdown: ");
         foreach (int numbers in countdown)
         {
         Console.Write(numbers + " ");
